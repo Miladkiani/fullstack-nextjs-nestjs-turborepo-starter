@@ -1,0 +1,15 @@
+
+> @repo/ui@1.0.0 build D:\me\my-career-monorepo\packages\ui
+> pnpm run build:components && pnpm run build:styles
+
+
+> @repo/ui@1.0.0 build:components D:\me\my-career-monorepo\packages\ui
+> tsc
+
+
+> @repo/ui@1.0.0 build:styles D:\me\my-career-monorepo\packages\ui
+> tailwindcss -i ./src/styles.css -o ./dist/index.css
+
+[3m[1m[34m≈[39m[22m[23m tailwindcss [34mv4.1.12[39m
+
+Done in [34m150ms[39m
